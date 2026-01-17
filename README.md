@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/2rVpS6-W)
 დავალება: CSS Fundamentals – დიზაინის იმპლემენტაცია
 📌 აღწერა
 
@@ -7,6 +8,7 @@
 🔗 Figma ლინკი: [Css fundamentals](https://www.figma.com/design/itqAVhJDIn39O3pYHuftbz/POS-restaurant-UI-system--Community-?node-id=0-1&p=f&t=f4Rg2a8ONnbGR6Ax-0)
 
 🛠 ტექნიკური მოთხოვნები (Technical Requirements)
+
 1. Semantic HTML
 
 გამოიყენეთ სემანტიკური HTML ტეგები, როგორიცაა:
@@ -92,6 +94,8 @@
 ატვირთეთ ეს სურათი თქვენს GitHub რეპოზიტორიაში, კოდის ფაილებთან ერთად.
 
 ჩასვით სურათი README.md ფაილში.
+
+[Project Preview](done.png)
 
 ✅ მიღების კრიტერიუმები (Acceptance Criteria)
 
