@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.p-letter {
+    font-family: Quicksand;
+    font-size: 45px;
+    color: rgb(66, 129, 129);
+}
+
+.o-letter {
+    font-family: Quicksand;
+    font-size: 45px;
+    color: rgb(202, 158, 112);
+}
+
+.s-letter {
+    font-family: Quicksand;
+    font-size: 45px;
+    color: rgb(70, 110, 54);
+}
+
+.site-header {
+    padding: 20px;
+    display: flex;             
+    align-items: center;
+}
+
+.search-bar {
+    width: 320px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #ECF3F5;
+    margin-left: 5%;
+    border: none;
+    height: 30px;
+}
+
+.date-time {
+    font-family: Quicksand;
+    margin-left: 25%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.table {
+    width: 130px;
+    background-color:#B1CED4;
+    color: #2C3832;
+    border-radius: 10px;
+    display: flex;             
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    padding: 10px 15px;
+    border: none;
+    height: 45px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-box {
+    display: inline-block;
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+    background-color:#D8E6E9;
+    margin: 10px 10px 5px 10px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+
+.card-image {
+    width: 100%;
+    height: 160px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;  
+    left: 50%;
+    transform: translateX(-50%);                    
+    background-color: #EBF0F2;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;             /* 👈 ფიქსირებული height მოაშორე */
+    width: 70%; 
+}
+
+.footer button {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+    width: 158px;
+    height: 50px;
+    color:  #9c9999;
+}
+
+.footer button:hover {
+    color: white;
+    background-color: rgb(25, 58, 25);
+}
+
+.product-info h3 {
+    font-family: Quicksand;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.category-info {
+    font-family: Quicksand;
+    font-size: 12px;
+    margin: 10px;
+    align-items: center;
+}
+
+.category-info span:nth-child(2) {
+    margin-left: 40%; 
+    text-align: center;
+    background-color:rgb(95, 68, 65);
+    width: 40px;
+    height: 20px;
+    padding: 8px;
+    border-radius: 50%;
+    color: white;
+}
+
+.category-info span:last-child {
+    align-items: center;
+    margin-left: 3%;
+}
